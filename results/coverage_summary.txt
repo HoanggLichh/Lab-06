@@ -1,0 +1,62 @@
+Do bang JaCoCo 0.8.12, Java openjdk version "21.0.12.1" 2026-08-18, chi lop BiCardSource.
+Chay bang MiniRunner + stub API JUnit (khong co JUnit 5 that o moi truong nay); cac test method la cac method trong TestBiCardSource.java.
+PASS  testDrawFromSource1WhenNotEmpty
+PASS  testDrawFromSource2WhenSource1Empty
+PASS  testIsEmptyWhenSource1NotEmpty
+PASS  testIsEmptyWhenOnlySource1Empty
+PASS  testIsEmptyWhenBothEmpty
+FAILED=0
+  COVERAGE {'INSTRUCTION': '33/33', 'BRANCH': '6/6', 'LINE': '8/8'}
+FAIL  testDrawFromSource1WhenNotEmpty: java.lang.AssertionError: Không được rút từ nguồn này
+FAIL  testDrawFromSource2WhenSource1Empty: java.lang.AssertionError: Không được rút từ nguồn này
+PASS  testIsEmptyWhenSource1NotEmpty
+PASS  testIsEmptyWhenOnlySource1Empty
+PASS  testIsEmptyWhenBothEmpty
+FAILED=2
+  COVERAGE {'INSTRUCTION': '25/33', 'BRANCH': '5/6', 'LINE': '6/8'}
+### only_draw : testDrawFromSource1WhenNotEmpty testDrawFromSource2WhenSource1Empty
+PASS  testDrawFromSource1WhenNotEmpty
+PASS  testDrawFromSource2WhenSource1Empty
+FAILED=0
+  COVERAGE {'INSTRUCTION': '21/33', 'BRANCH': '2/6', 'LINE': '7/8'}
+### only_isEmpty : testIsEmptyWhenSource1NotEmpty testIsEmptyWhenOnlySource1Empty testIsEmptyWhenBothEmpty
+PASS  testIsEmptyWhenSource1NotEmpty
+PASS  testIsEmptyWhenOnlySource1Empty
+PASS  testIsEmptyWhenBothEmpty
+FAILED=0
+  COVERAGE {'INSTRUCTION': '21/33', 'BRANCH': '4/6', 'LINE': '5/8'}
+### four_no_E1 : testDrawFromSource1WhenNotEmpty testDrawFromSource2WhenSource1Empty testIsEmptyWhenOnlySource1Empty testIsEmptyWhenBothEmpty
+PASS  testDrawFromSource1WhenNotEmpty
+PASS  testDrawFromSource2WhenSource1Empty
+PASS  testIsEmptyWhenOnlySource1Empty
+PASS  testIsEmptyWhenBothEmpty
+FAILED=0
+  COVERAGE {'INSTRUCTION': '33/33', 'BRANCH': '5/6', 'LINE': '8/8'}
+### four_no_E2 : testDrawFromSource1WhenNotEmpty testDrawFromSource2WhenSource1Empty testIsEmptyWhenSource1NotEmpty testIsEmptyWhenBothEmpty
+PASS  testDrawFromSource1WhenNotEmpty
+PASS  testDrawFromSource2WhenSource1Empty
+PASS  testIsEmptyWhenSource1NotEmpty
+PASS  testIsEmptyWhenBothEmpty
+FAILED=0
+  COVERAGE {'INSTRUCTION': '33/33', 'BRANCH': '5/6', 'LINE': '8/8'}
+### four_no_E3 : testDrawFromSource1WhenNotEmpty testDrawFromSource2WhenSource1Empty testIsEmptyWhenSource1NotEmpty testIsEmptyWhenOnlySource1Empty
+PASS  testDrawFromSource1WhenNotEmpty
+PASS  testDrawFromSource2WhenSource1Empty
+PASS  testIsEmptyWhenSource1NotEmpty
+PASS  testIsEmptyWhenOnlySource1Empty
+FAILED=0
+  COVERAGE {'INSTRUCTION': '31/33', 'BRANCH': '5/6', 'LINE': '8/8'}
+### four_no_D1 : testDrawFromSource2WhenSource1Empty testIsEmptyWhenSource1NotEmpty testIsEmptyWhenOnlySource1Empty testIsEmptyWhenBothEmpty
+PASS  testDrawFromSource2WhenSource1Empty
+PASS  testIsEmptyWhenSource1NotEmpty
+PASS  testIsEmptyWhenOnlySource1Empty
+PASS  testIsEmptyWhenBothEmpty
+FAILED=0
+  COVERAGE {'INSTRUCTION': '29/33', 'BRANCH': '5/6', 'LINE': '7/8'}
+### four_no_D2 : testDrawFromSource1WhenNotEmpty testIsEmptyWhenSource1NotEmpty testIsEmptyWhenOnlySource1Empty testIsEmptyWhenBothEmpty
+PASS  testDrawFromSource1WhenNotEmpty
+PASS  testIsEmptyWhenSource1NotEmpty
+PASS  testIsEmptyWhenOnlySource1Empty
+PASS  testIsEmptyWhenBothEmpty
+FAILED=0
+  COVERAGE {'INSTRUCTION': '29/33', 'BRANCH': '5/6', 'LINE': '7/8'}

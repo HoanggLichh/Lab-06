@@ -1,0 +1,10 @@
+Mutant | Bo 5 test | Thieu E1 | Thieu E2 | Thieu E3 | Chi 2 test draw
+M1 | 2 | 2 | 2 | 2 | 2
+M2 | 2 | 1 | 1 | 2 | 0
+M3 | 1 | 1 | 0 | 1 | 0
+M4 | 1 | 0 | 1 | 1 | 0
+M5 | 1 | 1 | 1 | 1 | 1
+(so test FAIL; 0 = mutant song sot)
+
+M1 = ban goc cua de (dieu kien draw bi nguoc); M2 = && thanh ||; M3 = chi kiem tra source1; M4 = chi kiem tra source2; M5 = draw luon rut tu source1
+Bo 7 test (5 cot loi + 2 bo sung): PASS het tren ban sua; JaCoCo LINE 8/8, BRANCH 6/6, INSTRUCTION 33/33; so test fail: M1=3 M2=2 M3=1 M4=1 M5=1
